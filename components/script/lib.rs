@@ -97,7 +97,7 @@ pub mod clipboard_provider;
 mod devtools;
 pub mod document_loader;
 #[macro_use]
-pub mod dom;
+mod dom;
 pub mod layout_wrapper;
 mod mem;
 mod network_listener;
