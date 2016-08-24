@@ -128,6 +128,11 @@
 //! return `Err()` from the method with the appropriate [error value]
 //! (error/enum.Error.html).
 
+#![allow(dead_code)]
+#![allow(unsafe_code)]
+#![deny(missing_docs)]
+#![deny(non_snake_case)]
+
 pub mod callback;
 pub mod cell;
 pub mod conversions;
